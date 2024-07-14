@@ -1,0 +1,98 @@
+.UpdateImagesHotel__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.625);
+    padding: 20px;
+    z-index: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UpdateImagesHote__closeContainer {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.UpdateImagesHotel__sectionOne {
+    position: relative;
+    width: 100%;
+    max-width: 919px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--body-white);
+    border-radius: 50px;
+}
+
+.UpdateImagesHotel__Image {
+    position: relative;
+    width: 334px;
+    height: 296px;
+
+}
+
+.UpdateImagesHotel__Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.UpdateImagesHotel__Image button {
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid var(--body-red);
+    background-color: var(--body-white);
+    cursor: pointer;
+}
+
+/* .UpdateImagesHotel__notImage { */
+
+.UpdateImagesHotel__notImage {
+    position: relative;
+    width: 334px;
+    height: 296px;
+    background-color: #F4F4F4;
+    border: 2.5px dashed #3D4543;
+    border-radius: 20px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.UpdateImagesHotel__notImage button {
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--body-red);
+    cursor: pointer;
+}
+
+.UpdateImagesHotel__notImage svg {
+    border: 4px solid var(--body-white);
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 50%;
+}

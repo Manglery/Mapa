@@ -1,0 +1,94 @@
+.Login_container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Login_sectionOne */
+
+.Login_sectionOne {
+    width: 300px;
+    background-color: var(--body-black);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px -3px rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.Login_sectionOne img {
+    width: 50px;
+    filter: invert(1);
+}
+
+.Login_sectionOne h1 {
+    color: var(--text-color-white);
+    font-size: 20px;
+}
+
+.Login_sectionOne_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 15px;
+}
+
+.Login_sectionOne_form_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Login_sectionOne_form_div label {
+    color: var(--text-color-white);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Login_sectionOne_form_div input {
+    width: 100%;
+    color: var(--text-color-white);
+    padding: 8px 10px;
+    border: 1px solid var(--body-gray);
+    background-color: var(--body-gray);
+    border-radius: 5px;
+}
+
+.Login_sectionOne_form_button {
+    margin: auto;
+    margin-top: 10px;
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: var(--body-gray);
+    color: var(--text-color-white);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.4s ease;
+}
+
+.Login_sectionOne_form_button:hover {
+    background-color: var(--body-white);
+    color: var(--text-color-black);
+}
+
+.Login_sectionOne_form_error {
+    color: var(--text-color-red);
+    font-size: 12px;
+}
+
+@media (max-width: 1000px) {
+    .Login_sectionOne {
+        width: 300px;
+    }
+}

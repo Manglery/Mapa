@@ -1,0 +1,51 @@
+.home_container {
+  width: calc(100% - 70px);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  background-color: var(--body-light);
+  overflow: hidden;
+}
+
+.home_sectionOne {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  touch-action: none;
+}
+
+.Home_map_container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.custom-map-control-button {
+  position: absolute;
+  right: 10px !important;
+  top: 50% !important;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  z-index: 10;
+  font-size: 25px;
+  background-color: var(--body-white);
+  color: var(--body-red);
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 1px rgb(186, 186, 186);
+}
+
+@media (max-width: 900px) {
+  .home_container {
+    width: 100%;
+    padding-top: 70px;
+  }
+}

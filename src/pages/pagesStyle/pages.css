@@ -1,0 +1,152 @@
+.page_container {
+  width: calc(100% - 70px);
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  background-color: var(--body-light);
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.page_sectionOne {
+  width: 100%;
+  background-color: var(--body-black);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page_sectionOne h1 {
+  color: var(--text-color-white);
+  font-size: 20px;
+}
+
+.page_sectionOne button {
+  width: 100px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid var(--body-darkBlue);
+  transition: 0.4s ease;
+  background-color: var(--body-white);
+  color: var(--text-color-black);
+  border-radius: 5px;
+}
+
+/* Birds__sectionTwo */
+
+.page_sectionTwo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.page_sectionTwo_buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.page_sectionTwo button {
+  width: 120px;
+  height: 45px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid var(--body-darkBlue);
+  transition: 0.4s ease;
+  background-color: var(--body-white);
+  color: var(--text-color-black);
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.page_sectionTwo button:hover {
+  background-color: var(--body-darkBlue);
+  color: var(--text-color-white);
+}
+
+.page_sectionTwo_buttons button {
+  width: 120px;
+  height: 45px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid var(--body-darkBlue);
+  transition: 0.4s ease;
+  background-color: var(--body-white);
+  color: var(--text-color-black);
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.page_sectionTwo_buttons button:hover {
+  background-color: var(--body-darkBlue);
+  color: var(--text-color-white);
+}
+
+.page_sectionThree {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  padding: 20px;
+  overflow: auto;
+}
+
+/* .page_buttonsContainer */
+
+.page_buttonsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.page_buttonsContainer button {
+  width: 100px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid var(--body-darkBlue);
+  transition: 0.4s ease;
+  background-color: var(--body-darkBlue);
+  color: var(--text-color-white);
+  border-radius: 5px;
+}
+
+.page_buttons_red {
+  border: 1px solid var(--body-red) !important;
+  background-color: var(--body-red) !important;
+  color: var(--text-color-white) !important;
+}
+
+.page_buttons_green {
+  border: 1px solid var(--body-green) !important;
+  background-color: var(--body-green) !important;
+  color: var(--text-color-white) !important;
+}
+
+@media (max-width: 900px) {
+  .page_container {
+    width: 100%;
+    padding-top: 70px;
+  }
+
+  .page___sectionTwo {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,167 @@
+.create_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+.create_sectionOne {
+    width: 100%;
+    height: 80px;
+    background-color: var(--body-darkBlue);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.create_sectionOne button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 45px;
+    background-color: transparent;
+    color: var(--text-color-white);
+    cursor: pointer;
+
+}
+
+.create_sectionOne i {
+    font-size: 30px;
+}
+
+.create_formContainer {
+    padding: 20px;
+}
+
+/* create_sectionTwo */
+
+.create_sectionTwo {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--body-white);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgb(236, 236, 236);
+}
+
+.create_sectionTwo h1 {
+    color: var(--text-color-gray);
+    font-size: 20px;
+}
+
+.create_formContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.create_formDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.create_formDiv label {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-color-gray);
+}
+
+.create_formDiv input {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--body-light);
+}
+
+.create_formDiv textarea {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--body-light);
+}
+
+.custom-file-input {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom_selecctImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.custom_selecctImg i {
+    font-size: 50px;
+}
+
+.custom_selecctImg p {
+    font-weight: 600;
+    text-align: center;
+}
+
+.image__preview {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image__preview img {
+    width: 150px;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* .create_form_buttonsContainer */
+
+
+.create_form_buttonsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.create_formButton {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-color-white);
+    background-color: var(--body-darkBlue);
+    border: 2px solid var(--body-darkBlue);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.create_formButton:hover {
+    background-color: var(--body-white);
+    color: var(--text-color-gray);
+}

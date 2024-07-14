@@ -1,0 +1,49 @@
+.loading-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.loading-text {
+    font-size: 24px;
+    font-weight: 500;
+
+    color: var(--text-color-white);
+}
+
+.loading-dots {
+    margin-top: -25px;
+    color: var(--text-color-white);
+    /* Color de los puntos */
+}
+
+.loading-dots span {
+    font-size: 50px;
+}
+
+/* Animación de los puntos */
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.loading-dots span {
+    animation: blink 1s infinite;
+}

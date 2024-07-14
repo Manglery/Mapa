@@ -1,0 +1,50 @@
+.CardAlcantarilla_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.CardAlcantarilla_sectionOne {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--body-white);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgb(236, 236, 236);
+}
+
+.CardAlcantarilla_sectionOne_div {
+    width: 100%;
+    display: flex;
+}
+
+.CardAlcantarilla_sectionOne_div p {
+    min-width: 80px;
+    width: auto;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-color-gray);
+}
+
+.CardAlcantarilla_sectionOne_div span {
+    width: 100%;
+    font-size: 13px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid var(--body-ligth);
+    background-color: var(--body-grayLigth);
+}
+
+.CardAlcantarilla_sectionOne_div img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
